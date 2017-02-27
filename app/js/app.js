@@ -1037,6 +1037,7 @@ $(window).on('popstate', function (e) {
       .iconSet('material', '/thirdParty/fonts/materialdesignicons-webfont.svg', 24);
   }]);
 
+>4568))=
 angular.module('application.templates', []).run(['$templateCache', function($templateCache) {
 
 }]);
