@@ -6,9 +6,7 @@
     "Florian Frank <tbd@test.de>"
   ],
   "scripts": {
-    "test": "grunt test"
-  },
-  "scripts": {
+    "test": "grunt test",
     "build": "grunt build"
   },
   "devDependencies": {

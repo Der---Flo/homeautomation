@@ -111,13 +111,10 @@ module.exports = function (grunt) {
 
 	grunt.registerTask("shared", ["html2js", "concat"]);
 
-	grunt.registerTask("Q-System", ["shared"]);
 	grunt.registerTask("P-System", ["shared", "ngAnnotate", "cssmin", "uglify"]);
 
-	grunt.registerTask("default", ["shared"]);
 	grunt.registerTask("watchfiles", ["shared", "watch"]);
-	grunt.registerTask("buildall", ["shared", "cssmin", "uglify"]);
 
-	grunt.registerTask("test", ["Q-System"]);
+	grunt.registerTask("test", ["P-System"]);
 	grunt.registerTask("build", ["P-System"]);
 };
