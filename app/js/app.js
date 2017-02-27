@@ -869,7 +869,7 @@ $(window).on('popstate', function (e) {
   }]);
 
 
-  app.controller('FabSpeedDialCtrl', function($scope, $timeout) {
+  app.controller('FabSpeedDialCtrl', ["$scope", "$timeout", function($scope, $timeout) {
     $scope.location = window.location.origin;
     $scope.fabSpeedDial = {
       hidden : false,
@@ -891,7 +891,7 @@ $(window).on('popstate', function (e) {
         $scope.fabSpeedDial.tooltipVisible = $scope.fabSpeedDial.isOpen;
       }
     });
-  });
+  }]);
 
   app.directive('userAvatar', function() {
     return {
@@ -1010,7 +1010,7 @@ $(window).on('popstate', function (e) {
   }
 });
 
-  app.config(function($mdThemingProvider) {
+  app.config(["$mdThemingProvider", function($mdThemingProvider) {
     var themeCount = 0;
     for(var index in ThemeColors)
     {
@@ -1029,7 +1029,7 @@ $(window).on('popstate', function (e) {
         //  $mdThemingProvider.theme('grey').primaryPalette('grey')
       $mdThemingProvider.setDefaultTheme('greygreen');
       $mdThemingProvider.alwaysWatchTheme(true);
-  });
+  }]);
 
   app.config(['$mdIconProvider', function($mdIconProvider) {
     $mdIconProvider
@@ -1037,7 +1037,6 @@ $(window).on('popstate', function (e) {
       .iconSet('material', '/thirdParty/fonts/materialdesignicons-webfont.svg', 24);
   }]);
 
->4568))=
 angular.module('application.templates', []).run(['$templateCache', function($templateCache) {
 
 }]);
