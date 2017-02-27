@@ -1,1 +1,1 @@
-# homeautomation
+# homeautomation [![Build Status](https://travis-ci.org/Der---Flo/homeautomation.svg?branch=master)](https://travis-ci.org/Der---Flo/homeautomation)
