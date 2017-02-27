@@ -6,7 +6,7 @@ before_script:
   - npm install grunt-cli -g
 deploy:
   provider: releases
-  api_key: "e068fb887f2e49a353f8750b35eb00bbff7e76aa"
+  api_key: e068fb887f2e49a353f8750b35eb00bbff7e76aa
   file:
     - "app/js/app.js"
     - "app/css/site.css"
