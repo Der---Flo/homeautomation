@@ -6,8 +6,6 @@ before_script:
 - npm install grunt-cli -g
 deploy:
   provider: releases
-  api_key: 
-    secure: oCPhzVYijAYo87Mmq/TLV0OGBXk2H4lNVk3ZkEdGk1H3ycdlnNs+QFU63H3s2FK5UTDvDk8BSLXn1rSyF1mxkxwOOSAOHWvtgKLPvVD27j+0G94e9uYwc5gt/FO4WR6WZYso0Qpm1Q4eExVxgq3a6hs5ToHbxESnFMfBU9qms7FWgm0eFGf5yXT1P1S9uuD3CZEQ6eZ2QP5hh1Al4zUWiv7sPwvr2ba3M1lZ83aCPS49jbzxAu81moX90SUeRuo5qzhvSMtmbABqNaRigvBrqFbNVYqwvJINPyFVJdCZ+nHuHcIQXPUe0PbOBibI+3ADJQmn8ri+98RHxR1SKOCO46QYkTyTrf7xitupMPqr6ELhUWV2G9tzaBB2XNOvx1w0BWBQkw+gi0/v3HXpAnjEqQsHhng1gCpD2jCeDB5KbqHbPggXhrio22QQGn3qWJzamflzJ0Zq0cYqKby81J1u9XH50S5Jm8+0fMw9BSIAqnldbWdi42SU0srSHGgb4y8BtrQkiqPUiIWPB8WwaTLlS1IAhdqGQAd5ASIQjgPkOoODWAQezHO8FPAoBGQgablPLmm5WxOE0ErMlXtCAdOJtquxwh8+yIKh1L4+JdAOhbfPC+gxXGT3YF8fcDxnILWh/7d+nqiHKO6tN2KCz54OQJYhl1t1P8PLXK/r+gDyfPA=
   file:
   - app/js/app.js
   - app/css/site.css
