@@ -8,6 +8,7 @@ module.exports = function (grunt) {
 		dirs: {
 			// input
 			scripts: "scripts",
+			styles: "css",
 
 			// output
 			js: "app/js",
