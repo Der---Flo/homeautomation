@@ -5,6 +5,12 @@
   "authors": [
     "Florian Frank <tbd@test.de>"
   ],
+  "scripts": {
+    "test": "grunt test"
+  },
+  "scripts": {
+    "build": "grunt build"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-angular-templates": "^1.1.0",

@@ -118,5 +118,6 @@ module.exports = function (grunt) {
 	grunt.registerTask("watchfiles", ["shared", "watch"]);
 	grunt.registerTask("buildall", ["shared", "cssmin", "uglify"]);
 
-	grunt.registerTask("test", ["cssmin"]);
+	grunt.registerTask("test", ["Q-System"]);
+	grunt.registerTask("build", ["P-System"]);
 };
